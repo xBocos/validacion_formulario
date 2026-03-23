@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
+
+.margen{
+  padding: 15px;
+}
+
+.ancho{
+  width: 1200px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.titulo_principal{
+  text-align: center;
+  background-color: #5f5d5d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.contenedor_formulario{
+  width: 700px;
+  height: auto;
+  border: 1px #333 solid;
+  border-radius: 15px;
+  margin: auto;
+  background-color: white;
+  max-width: 1200px;
+}
+
+.caja_texto{
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px #5f5d5d solid;
+}
+
+.boton{
+  background-color: #800000;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
